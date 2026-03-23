@@ -26,25 +26,25 @@ Standard HTTP APIs are too slow for live voice interactions. Sovereign Copilot b
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ch-its/sovereign-copilot.git```
+   git clone https://github.com/ch-its/sovereign-copilot.git
 2. Install Backend Dependencies:
    ```bash
    cd sales-copilot-backend
-   npm install```
+   npm install
 3. Install Frontend Dependencies:
    ```bash
    cd sales-copilot-ui
-   npm install```
+   npm install
 4. Environment Variables (Create a .env file in the root directory of the project)
    GROQ_API_KEY=gsk_your_groq_api_key_here
    MONGO_URI=mongodb+srv://your_user:your_password@your-cluster.mongodb.net/?retryWrites=true&w=majority
 5. Start the Backend
    ```bash
    cd sales-copilot-backend
-   node server.js```
+   node server.js
 6. Start the Frontend
    ```bash
    cd sales-copilot-ui
-   npm run dev```
+   npm run dev
    
    
