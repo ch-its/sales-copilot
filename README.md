@@ -1,6 +1,6 @@
-# Sovereign Copilot 🎙️⚡
+# Sales Copilot 🎙️⚡
 
-A high-performance, ultra-low latency AI companion for enterprise sales, built to process live audio, analyze context, and deliver real-time tactical coaching mid-conversation. 
+A high-performance, ultra-low latency AI companion for enterprise sales, built to process live audio, analyze context, and deliver real-time tactical coaching mid-conversation. This project was made in under 24 hours during HACKCU 2026 at the University of Colorado, Boulder.
 
 ## 🚀 The Architecture
 
@@ -26,7 +26,7 @@ Standard HTTP APIs are too slow for live voice interactions. Sovereign Copilot b
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ch-its/sovereign-copilot.git
+   git clone https://github.com/ch-its/sales-copilot.git
 2. Install Backend Dependencies:
    ```bash
    cd sales-copilot-backend
