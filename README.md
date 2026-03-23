@@ -47,4 +47,18 @@ Standard HTTP APIs are too slow for live voice interactions. Sovereign Copilot b
    cd sales-copilot-ui
    npm run dev
    
+## 🧠 Core Features
+
+### 1. Training Mode (Ultra-Low Latency Voice Chat)
+![Training Mode UI](./training-mode.png)
+A high-fidelity simulator where reps pitch to dynamic, emotion-aware AI personas (e.g., an angry Gordon Ramsay). Powered by Groq's LPU and WebSockets, it achieves near-instantaneous conversational flow, breaking the standard "AI voice delay" to provide genuinely stressful, realistic practice.
+
+### 2. Sales Co-Pilot (Real-Time RAG)
+![Sales Co-Pilot UI](./sales-co-pilot.png)
+The ultimate live-call companion. It listens to live customer objections, queries MongoDB Atlas for historically successful rebuttals (the "Winning Vault"), and streams exactly 3 tactical options to the rep's UI in real-time. No generic advice—only proven company strategies.
+
+### 3. Manager Ride-Along
+![Manager Ride Along UI](./manager-ride-along.png)
+A silent AI observer that acts as a veteran sales manager. It analyzes the broader context of the live call and whispers high-level strategic pivots directly to the rep without interrupting the conversational flow.
+   
    
