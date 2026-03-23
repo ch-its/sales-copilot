@@ -36,7 +36,6 @@ Standard HTTP APIs are too slow for live voice interactions. Sovereign Copilot b
    cd sales-copilot-ui
    npm install```
 4. Environment Variables (Create a .env file in the root directory of the project)
-   # .env
    GROQ_API_KEY=gsk_your_groq_api_key_here
    MONGO_URI=mongodb+srv://your_user:your_password@your-cluster.mongodb.net/?retryWrites=true&w=majority
 5. Start the Backend
